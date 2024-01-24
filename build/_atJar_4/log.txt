@@ -1,7 +1,0 @@
-Java Launcher: C:\Users\Artem\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\runtime\java-runtime-gamma\windows-x64\java-runtime-gamma\bin\java.exe
-Arguments: '--inJar, C:\Users\Artem\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-injected.jar, --outJar, C:\Users\Artem\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.3.7_mapped_parchment_2022.11.27-1.19.2\forge-1.19.2-43.3.7_mapped_parchment_2022.11.27-1.19.2.jar, --logFile, accesstransform.log, --atFile, C:\Users\Artem\Modding\KotlinScriptForForge\build\_atJar_4\parent_at.cfg'
-Classpath:
- - C:\Users\Artem\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: C:\Users\Artem\Modding\KotlinScriptForForge\build\_atJar_4
-Main class: net.minecraftforge.accesstransformer.TransformerProcessor
-====================================

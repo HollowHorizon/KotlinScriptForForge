@@ -1,1 +1,0 @@
-C:\Users\Artem\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.3.7_mapped_official_1.19.2\forge-1.19.2-43.3.7_mapped_official_1.19.2.jar
