@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.hollowhorizon.kotlinscript.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "kotlinscript.refmap.json",
+  "mixins": [
+    "BinaryJavaClassMixin",
+    "JvmCompilationUtilMixin",
+    "KotlinCoreEnvironmentMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
