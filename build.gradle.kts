@@ -154,7 +154,7 @@ configure<MixinExtension> {
 }
 
 val jar = tasks.named<Jar>("jar") {
-    archiveClassifier.set("")
+    archiveClassifier.set("lite")
     exclude(
         "LICENSE.txt", "META-INF/MANIFSET.MF", "META-INF/maven/**",
         "META-INF/*.RSA", "META-INF/*.SF", "META-INF/versions/**"
