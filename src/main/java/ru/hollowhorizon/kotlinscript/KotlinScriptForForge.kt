@@ -10,8 +10,4 @@ import ru.hollowhorizon.kotlinscript.common.scripting.main
 object KotlinScriptForForge {
     val LOGGER: Logger = LogManager.getLogger()
     const val MODID: String = "kotlinscript"
-
-    init {
-        main()
-    }
 }
