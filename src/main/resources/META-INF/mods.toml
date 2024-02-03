@@ -13,13 +13,13 @@ Mod that provides tools for compiling kotlin scripts at runtime.
 [[dependencies.kotlinscript]]
 modId = "forge"
 mandatory = true
-versionRange = "[43.2.6,44.0.0)"
+versionRange = "[40,44.0.0)"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.kotlinscript]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19,1.19.3)"
+versionRange = "[1.18,1.20)"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.kotlinscript]]
@@ -31,6 +31,6 @@ side = "BOTH"
 [[dependencies.kotlinscript]]
 modId="kotlinforforge"
 mandatory=true
-versionRange="[3.12.0,)"
+versionRange="[3.10.0,)"
 ordering = "AFTER"
 side = "BOTH"
