@@ -4,7 +4,7 @@ import cpw.mods.modlauncher.TransformingClassLoader
 import org.objectweb.asm.ClassReader
 import org.objectweb.asm.ClassWriter
 import org.objectweb.asm.tree.*
-import ru.hollowhorizon.hc.HollowCore
+import ru.hollowhorizon.kotlinscript.KotlinScriptForForge
 import java.io.ByteArrayInputStream
 
 object ASMRemapper {
@@ -89,7 +89,7 @@ val String.node: ClassNode?
                     if (ASMRemapper.CLASS_CACHE.containsKey(clazz)) ByteArrayInputStream(ASMRemapper.CLASS_CACHE[clazz])
                     else TransformingClassLoader.getSystemClassLoader().getResourceAsStream(clazz) ?: Class.forName(this@node.replace("/", ".")).classLoader.getResourceAsStream(clazz)
 
-                if (stream == null) HollowCore.LOGGER.warn(
+                if (stream == null) KotlinScriptForForge.LOGGER.warn(
                     "Class {} not found! It may be classLoader: {}",
                     this@node.replace("/", "."),
                     Class.forName(this@node.replace("/", ".")).classLoader.name
@@ -98,7 +98,7 @@ val String.node: ClassNode?
                 stream?.close()
             }
         } catch (e: Exception) {
-            HollowCore.LOGGER.error("error, not found: {}", this, e)
+            KotlinScriptForForge.LOGGER.error("error, not found: {}", this, e)
             null
         }
     }
